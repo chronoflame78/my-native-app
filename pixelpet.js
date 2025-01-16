@@ -63,7 +63,7 @@ const ITEMS = [
 
 const petData = {
   id: 1,
-  petId: 1,
+  petId: "zxcs-sdxzc",
   name: "Water slime",
   spiecies: "Water slime",
   nickname: "Bubbles",
@@ -93,3 +93,16 @@ const petData = {
   items: [1],
   skills: [2,3],
 };
+
+const USERS = {
+  name: "Username",
+  pets: ["zxcs-sdxzc", "123cs-sdxzc", "1234-sdxzc"],
+  team: ["zxcs-sdxzc", "123cs-sdxzc"],
+  items: [{ id: 1, count: 1 }, { id: 2, count: 3 }],
+  mail_box: [{
+    id: 1,
+    title: "Welcome",
+    message: "Welcome to the game",
+    items: [{ id: 1, count: 1 }],
+  }]
+}
