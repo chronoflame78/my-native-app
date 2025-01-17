@@ -61,6 +61,10 @@ const ITEMS = [
   },
 ];
 
+const TITLE = {
+  PET_MASTER: 'Pet Master',
+}
+
 const petData = {
   id: 1,
   petId: "zxcs-sdxzc",
@@ -71,6 +75,7 @@ const petData = {
   level: 20,
   rank: 1,
   merge: 0,
+  title: TITLE.PET_MASTER,
   max_health: 200,
   curr_health: 200,
   phy_atk: 30,
